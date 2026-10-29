@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@layer utilities {
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-lato {
+    font-family: 'Lato', sans-serif;
+  }
+}
