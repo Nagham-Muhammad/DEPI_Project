@@ -14,7 +14,7 @@ export default function Hero({bg, title, desc, btn, btncontent, icons}) {
          {title}
         </h1>
 
-        <p className="font-lato text-[#CEC7C7] text-base md:text-lg font-bold w-full max-w-xl mb-12">
+        <p className="font-lato text-[#CEC7C7] text-base md:text-lg font-bold w-full max-w-3xl mb-12">
           {desc}
         </p>
         

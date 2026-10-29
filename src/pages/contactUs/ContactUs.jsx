@@ -31,7 +31,7 @@ export default function ContactUs() {
         bg={conhero}
         title={"Connected Globally. Available Locally."}
         desc={"With experts positioned in the world's most influential markets, we are never more than a conversation away. Reach out to our team to experience a new standard of real estate advisory."}
-        icons={true}
+      
       />
 
       <div className="w-full px-6 md:px-20 mt-20">
