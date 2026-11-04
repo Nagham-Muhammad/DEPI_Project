@@ -17,7 +17,7 @@ export default function Units() {
 
   const getUnits = async () => {
     try {
-      const response = await api.get("/unit");
+      const response = await api.get("unit");
       setUnits(response.data);
       setFilteredUnits(response.data);
       setLoading(false);

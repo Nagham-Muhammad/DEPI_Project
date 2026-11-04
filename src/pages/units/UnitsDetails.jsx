@@ -13,7 +13,7 @@ export default function UnitDetails() {
 
   const getUnitDetails = async () => {
     try {
-      const response = await api.get(`/unit/${id}`);
+      const response = await api.get(`unit/${id}`);
       setUnit(response.data);
       if (response.data.images && response.data.images.length > 0) {
         setActiveImage(response.data.images[0]);
