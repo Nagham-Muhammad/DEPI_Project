@@ -9,11 +9,12 @@ export default defineConfig({
   ],
   server: {
     port: 3000,
-     proxy: {
+    proxy: {
       '/api': {
-        target: 'https://white-seahorse-266682.hostingersite.com/api/v1', 
+        target: 'https://white-seahorse-266682.hostingersite.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
-  }}}
-    });
-
+        rewrite: (path) => path, // بيحافظ على المسار كاملاً زي ما هو
+      },
+    },
+  },
+});
